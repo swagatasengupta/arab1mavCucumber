@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web UI Test Suite" parallel="tests" thread-count="3" verbose="1">
+<!-- 	<test name="Selenium-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="dummy" value="1"></parameter>
+		<classes>
+			<class name="autop.rnd.AutopLGN01"></class>
+		</classes>
+	</test>
+ -->
+	<test name="Selenium-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="autop.seluitests.AutopCreateAddress"></class>
+		</classes>
+	</test>
+</suite>
